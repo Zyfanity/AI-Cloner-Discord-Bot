@@ -10,7 +10,7 @@ const PAGES = [
   {
     label: '🏠 Overview',
     content: () =>
-      `### 🤖  Umbrax Development — Help\n` +
+      `### 🤖  Zenix Development — Help\n` +
       `Full server backup, restore & cloner bot.\n` +
       `Prefix: \`${PREFIX}\`\n\n` +
       `**Categories**\n` +
@@ -64,14 +64,14 @@ const PAGES = [
     label: '💎 Credits',
     content: () =>
       `### 💎  Credits & Info\n\n` +
-      `**Bot:** Umbrax Backup & Cloner\n` +
-      `**Developer:** Umbrax Development\n` +
+      `**Bot:** Zenix Backup & Cloner\n` +
+      `**Developer:** Zenix Development\n` +
       `**Version:** 2.0.0\n` +
       `**Library:** discord.js v14\n` +
       `**UI:** Components V2\n\n` +
       `**Support Server**\n` +
-      `> Join us at [discord.gg/y74cue9txv](https://discord.gg/y74cue9txv)\n\n` +
-      `-# © 2026 Umbrax Development. All rights reserved.`,
+      `> Join us at [dsc.gg/zenix](https://dsc.gg/zenix)\n\n` +
+      `-# © 2026 Zenix Development. All rights reserved.`,
   },
 ];
 
@@ -91,7 +91,7 @@ function buildPage(p) {
       ),
       separator(),
       actionRow(
-        button('Support Server', null, 5, '🔗', 'https://discord.gg/y74cue9txv'),
+        button('Support Server', null, 5, '🔗', 'https://dsc.gg/zenix'),
       ),
       separator(),
       textDisplay(`-# ${FOOTER_TEXT}`),
