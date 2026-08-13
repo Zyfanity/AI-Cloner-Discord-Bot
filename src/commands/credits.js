@@ -13,12 +13,12 @@ module.exports = {
       msgV2(
         container(COLOR.brand,
           textDisplay(
-            `### 💎  Umbrax Development\n` +
+            `### 💎  Zenix Development\n` +
             `*Server Backup & Cloner Bot*`
           ),
           separator(),
           textDisplay(
-            `**Developer**  Umbrax Development\n` +
+            `**Developer**  Zenix Development\n` +
             `**Version**  \`2.0.0\`\n` +
             `**Library**  discord.js v14\n` +
             `**UI Format**  Components V2\n` +
@@ -37,11 +37,11 @@ module.exports = {
           separator(),
           textDisplay(
             `**Support**\n` +
-            `> Join our server: [discord.gg/y74cue9txv](https://discord.gg/y74cue9txv)`
+            `> Join our server: [discord.gg/zenix](https://dsc.gg/zenix)`
           ),
           separator(),
           actionRow(
-            button('Support Server', null, 5, '🔗', 'https://discord.gg/y74cue9txv'),
+            button('Support Server', null, 5, '🔗', 'https://dsc.gg/zenix'),
           ),
           separator(),
           textDisplay(`-# ${FOOTER_TEXT}`),
