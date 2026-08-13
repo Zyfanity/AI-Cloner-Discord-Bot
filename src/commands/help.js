@@ -70,7 +70,7 @@ const PAGES = [
       `**Library:** discord.js v14\n` +
       `**UI:** Components V2\n\n` +
       `**Support Server**\n` +
-      `> Join us at [dsc.gg/zenix](https://dsc.gg/zenix)\n\n` +
+      `> Join us at [https://discord.gg/zenix](https://dsc.gg/zenix)\n\n` +
       `-# © 2026 Zenix Development. All rights reserved.`,
   },
 ];
