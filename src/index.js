@@ -34,18 +34,18 @@ for (const file of fs.readdirSync(cmdDir).filter(f => f.endsWith('.js'))) {
 
 client.once('ready', () => {
   console.log(`\n╔══════════════════════════════════════╗`);
-  console.log(`║   Umbrax Development — Bot Online    ║`);
+  console.log(`║   Zenix Development — Bot Online    ║`);
   console.log(`╠══════════════════════════════════════╣`);
   console.log(`║  Tag     : ${client.user.tag.padEnd(26)}║`);
   console.log(`║  Prefix  : ${PREFIX.padEnd(26)}║`);
   console.log(`║  Guilds  : ${String(client.guilds.cache.size).padEnd(26)}║`);
-  console.log(`║  Support : discord.gg/y74cue9txv     ║`);
+  console.log(`║  Support : dsc.gg/zenix     ║`);
   console.log(`╚══════════════════════════════════════╝\n`);
 
   const activities = [
-    { name: 'Umbrax Development', type: ActivityType.Playing },
-    { name: `${PREFIX}help | Umbrax`, type: ActivityType.Watching },
-    { name: 'discord.gg/y74cue9txv', type: ActivityType.Watching },
+    { name: 'Zenix Development', type: ActivityType.Playing },
+    { name: `${PREFIX}help | Zenix`, type: ActivityType.Watching },
+    { name: 'dsc.gg/zenix', type: ActivityType.Watching },
     { name: 'your server backups 🔒', type: ActivityType.Watching },
   ];
 
